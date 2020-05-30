@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Drum Machine</title>
+</head>
+
+<body>
+  <div id="drum-machine">
+    <div id="display" class="display">
+      <span class="display-text"> Welcome to my Drum Machine!<br>
+        Have fun.
+      </span>
+    </div>
+    <div id="buttons">
+      <div id="KICK1" class="drum-pad" data-key="q">
+        <kbd>Q</kbd>
+        <audio id="Q" class="clip" src="assets/Kick1.mp3"></audio>
+      </div>
+      <div id="KICK2" class="drum-pad" data-key="w">
+        <kbd>W</kbd>
+        <audio id="W" class="clip" src="assets/Kick2.mp3"></audio>
+      </div>
+      <div id="CLAP" class="drum-pad" data-key="e">
+        <kbd>E</kbd>
+        <audio id="E" class="clip" src="assets/Clap.mp3"></audio>
+      </div>
+      <div id="TOMHIGH" class="drum-pad" data-key="a">
+        <kbd>A</kbd>
+        <audio id="A" class="clip" src="assets/Tom High.mp3"></audio>
+      </div>
+      <div id="TOMLOW" class="drum-pad" data-key="s">
+        <kbd>S</kbd>
+        <audio id="S" class="clip" src="assets/Tom Low.mp3"></audio>
+      </div>
+      <div id="COWBELL" class="drum-pad" data-key="d">
+        <kbd>D</kbd>
+        <audio id="D" class="clip" src="assets/Cowbell.mp3"></audio>
+      </div>
+      <div id="HAT" class="drum-pad" data-key="z">
+        <kbd>Z</kbd>
+        <audio id="Z" class="clip" src="assets/Hat.mp3"></audio>
+      </div>
+      <div id="SNARE" class="drum-pad" data-key="x">
+        <kbd>X</kbd>
+        <audio id="X" class="clip" src="assets/Snare.mp3"></audio>
+      </div>
+      <div id="SCRATCH" class="drum-pad" data-key="c">
+        <kbd>C</kbd>
+        <audio id="C" class="clip" src="assets/Scratch.mp3"></audio>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="coded-by">Coded by <a href="https://www.freecodecamp.org/fcc5b94da85-6e92-4331-8fbb-c5c610c6a41a"
+      target="_blank">Pavel P.</a> for freeCodeCamp</div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
